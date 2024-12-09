@@ -10,7 +10,7 @@ export const searchParams = async (query, page = 1) => {
     orientation: 'horizontal',
     safesearch: true,
     page,
-    per_page: 150,
+    per_page: 15,
   });
 
   try {
